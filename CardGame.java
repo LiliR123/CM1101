@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CardGame {
+public class CardGame extends Game{
 	
   public static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
   private static RandomInterface r = new LinearCongruentialGenerator();
