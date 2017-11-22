@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class DieGame {
+public class DieGame extends Game  {
 	
   public  static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
   private static RandomInterface r = new LinearCongruentialGenerator();
